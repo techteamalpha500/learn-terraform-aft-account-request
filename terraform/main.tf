@@ -2,11 +2,11 @@ module "sandbox" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "testaudit8767@gmail.com"
-    AccountName               = "Central"
-    ManagedOrganizationalUnit = "Root"
-    SSOUserEmail              = "testaudit8767@gmail.com"
-    SSOUserFirstName          = "Central"
+    AccountEmail              = "testaudit87689@gmail.com"
+    AccountName               = "CentralNetwork"
+    ManagedOrganizationalUnit = "SharedServices"
+    SSOUserEmail              = "testaudit87689@gmail.com"
+    SSOUserFirstName          = "CentralNetwork"
     SSOUserLastName           = "AFT"
   }
 
@@ -23,5 +23,5 @@ module "sandbox" {
     group = "non-prod"
   }
 
-  account_customizations_name = "Central"
+  account_customizations_name = "CentralNetwork"
 }
