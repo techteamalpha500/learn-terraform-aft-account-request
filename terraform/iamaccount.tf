@@ -1,12 +1,12 @@
-module "sandbox" {
+module "iamaccount" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "arunclement1315@gmail.com"
-    AccountName               = "SharedServiceAccount"
+    AccountEmail              = "arunclement1320@gmail.com"
+    AccountName               = "testaccount3"
     ManagedOrganizationalUnit = "SharedServices(ou-ho1i-6yempsh9)"
-    SSOUserEmail              = "arunclement1315@gmail.com"
-    SSOUserFirstName          = "SharedServiceAccount"
+    SSOUserEmail              = "arunclement1320@gmail.com"
+    SSOUserFirstName          = "testaccount3"
     SSOUserLastName           = "AFT"
   }
 
